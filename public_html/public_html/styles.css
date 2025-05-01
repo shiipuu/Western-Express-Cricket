@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/* CSS Design
+A single styles.css on all pages with rules for anything specific to the styles (colors, fonts - not layout) of the website.
+Text, link colors specified
+Use of font-face
+CSS Validates (https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+rgb(240 96 96) - red
+rgb(243 181 98) - orange
+rgb(242 235 191) - yellow
+rgb(140 190 178) - green
+rgb(92 75 81) - purple
+ */
+
+ @font-face {
+    font-family: Nosifer;
+    src: url("Nosifer-Regular.ttf");
+ }
+
+body {
+    background-color: rgb(92 75 81);
+}
+
+*{
+    color: rgb(242 235 191);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family: Nosifer;
+}
+
+a:link, a:visited {
+    color: rgb(243 181 98);
+    text-decoration: none;
+}
+
+a:active, a:focus, a:hover {
+    color: rgb(240 96 96);
+    text-decoration: underline;
+}

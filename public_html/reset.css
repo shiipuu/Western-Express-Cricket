@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* Remove margin and padding for all elements */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove list styles */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove links' underlines */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Remove default styling for form elements */
+input,
+button,
+select,
+textarea {
+    border: none;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+/* Remove default font-family */
+body {
+    font-family: sans-serif;
+}
+
+/* Normalize images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
